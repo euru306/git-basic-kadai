@@ -8,7 +8,7 @@ C:\Users\81803>cd git_challenge
 C:\Users\81803\git_challenge>git init
 Initialized empty Git repository in C:/Users/81803/git_challenge/.git/
 
-C:\Users\81803\git_challenge>git add hello_world.txt
+C:\Users\81803\git_challenge>echo "Hello, world!" >> hello_world.txt
 
 C:\Users\81803\git_challenge>git commit -m "hello_world.txtを追加"
 [main (root-commit) 3b93481] hello_world.txtを追加
