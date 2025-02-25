@@ -1,0 +1,28 @@
+Microsoft Windows [Version 10.0.26100.3194]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\81803>mkdir git_challenge
+
+C:\Users\81803>cd git_challenge
+
+C:\Users\81803\git_challenge>git init
+Initialized empty Git repository in C:/Users/81803/git_challenge/.git/
+
+C:\Users\81803\git_challenge>git add hello_world.txt
+
+C:\Users\81803\git_challenge>git commit -m "hello_world.txtを追加"
+[main (root-commit) 3b93481] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\81803\git_challenge>git add hello_world.txt
+
+C:\Users\81803\git_challenge>git commit -m "日本語訳を追記"
+[main 7824a2b] 日本語訳を追記
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\81803\git_challenge>git log --oneline
+7824a2b (HEAD -> main) 日本語訳を追記
+3b93481 hello_world.txtを追加
+
+C:\Users\81803\git_challenge>
